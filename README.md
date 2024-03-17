@@ -9,3 +9,6 @@ How to run:
   - run program and uncomment the functions as needed
 
 Notes: This project was created using eclipse and the code structer is from class, it spceifically useses the format given in lecture 11 and the JDBC example video the proffessor shared.
+
+Functions:
+  All functions uses connection to create a statement, String query specifys what SQL operation is needed. An extra paremeter Connection con is added to all functions to avoid re-writing "Connection con = DriverManager.getConnection(url, user, password);".  
